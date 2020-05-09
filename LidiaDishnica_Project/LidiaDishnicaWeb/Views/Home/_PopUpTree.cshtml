@@ -1,0 +1,58 @@
+﻿
+@model LidiaDishnicaWeb.Models.CommodityRootsModel
+
+<div>
+
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h4 class="modal-title" id="myModalLabel">Edit</h4>
+    </div>
+
+
+    <hr />
+    @using (Html.BeginForm("Save", "Home"))
+    {
+        <div class="container">
+            @Html.HiddenFor(m => m.id)
+            <div class="row">
+                <div class="col-md-2">
+                    <strong>Code:</strong>
+                </div>
+                <div class="col-md-10">
+
+                    @Html.DisplayFor(model => model.Code)
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <strong>Name:</strong>
+                </div>
+                <div class="col-md-10">
+
+                    @Html.TextAreaFor(model => model.Name, new { @class = "form-control" })
+                </div>
+            </div>
+            @if (!String.IsNullOrEmpty(Model.Description))
+            {
+                <div class="row">
+                    <div class="col-md-2">
+                        <strong>Description:</strong>
+                    </div>
+                    <div class="col-md-10">
+
+                        @Html.DisplayFor(model => model.Description)
+                    </div>
+                </div>
+            }
+            <div class="row">
+                <div class="col-xs-10">
+                    <button type="submit" class="btn btn-primary" style="margin-bottom: 10px;">Save</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal" aria-hidden="true" style="margin-bottom: 10px;margin-left:5px">Cancel</button>
+
+                </div>
+            </div>
+
+        </div>
+    }
+</div>
+

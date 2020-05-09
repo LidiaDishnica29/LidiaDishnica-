@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Database">
+  <DataContextMoniker Name="/Guest19DataContext" />
+  <nestedChildShapes>
+    <classShape Id="20de0618-7595-41ab-b432-e0c1cf67121b" absoluteBounds="0.75, 0.875, 2, 1.9631982421875">
+      <DataClassMoniker Name="/Guest19DataContext/CommodityChapters" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ab592a71-ec2d-40af-a616-db9a5c160fa9" absoluteBounds="0.765, 1.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="640f4093-d085-4267-b856-667bac2ae188" absoluteBounds="3.5, 0.875, 2, 1.9631982421875">
+      <DataClassMoniker Name="/Guest19DataContext/CommodityRoots" />
+      <nestedChildShapes>
+        <elementListCompartment Id="08987ff3-3182-4408-8f74-8cef9e5af08d" absoluteBounds="3.515, 1.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.85659912109375); (3.5 : 1.85659912109375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/Guest19DataContext/CommodityChapters/CommodityChapters_CommodityRoots" />
+      <nodes>
+        <classShapeMoniker Id="20de0618-7595-41ab-b432-e0c1cf67121b" />
+        <classShapeMoniker Id="640f4093-d085-4267-b856-667bac2ae188" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
