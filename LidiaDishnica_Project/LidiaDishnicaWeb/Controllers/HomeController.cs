@@ -43,6 +43,7 @@ namespace LidiaDishnicaWeb.Controllers
             rootsModel.Name = element.Name;
             rootsModel.id = element.Id;
 
+
             return PartialView("_PopUpTree", rootsModel);
         }
 
@@ -54,7 +55,6 @@ namespace LidiaDishnicaWeb.Controllers
             commodityRootsModel.Fill(com);
             com.Save();
          return   RedirectToAction("Index");
-         
 
         }
         public ActionResult About()
