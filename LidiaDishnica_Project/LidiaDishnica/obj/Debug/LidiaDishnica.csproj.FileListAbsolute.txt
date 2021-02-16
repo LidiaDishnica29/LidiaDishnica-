@@ -4,3 +4,10 @@ C:\project\LidiaDishnica\LidiaDishnica\bin\Debug\LidiaDishnica.pdb
 C:\project\LidiaDishnica\LidiaDishnica\obj\Debug\LidiaDishnica.csproj.CoreCompileInputs.cache
 C:\project\LidiaDishnica\LidiaDishnica\obj\Debug\LidiaDishnica.dll
 C:\project\LidiaDishnica\LidiaDishnica\obj\Debug\LidiaDishnica.pdb
+C:\Users\Lidia ATIS\Source\Repos\LidiaDishnica-\LidiaDishnica_Project\LidiaDishnica\bin\Debug\LidiaDishnica.dll.config
+C:\Users\Lidia ATIS\Source\Repos\LidiaDishnica-\LidiaDishnica_Project\LidiaDishnica\bin\Debug\LidiaDishnica.dll
+C:\Users\Lidia ATIS\Source\Repos\LidiaDishnica-\LidiaDishnica_Project\LidiaDishnica\bin\Debug\LidiaDishnica.pdb
+C:\Users\Lidia ATIS\Source\Repos\LidiaDishnica-\LidiaDishnica_Project\LidiaDishnica\obj\Debug\LidiaDishnica.csprojAssemblyReference.cache
+C:\Users\Lidia ATIS\Source\Repos\LidiaDishnica-\LidiaDishnica_Project\LidiaDishnica\obj\Debug\LidiaDishnica.csproj.CoreCompileInputs.cache
+C:\Users\Lidia ATIS\Source\Repos\LidiaDishnica-\LidiaDishnica_Project\LidiaDishnica\obj\Debug\LidiaDishnica.dll
+C:\Users\Lidia ATIS\Source\Repos\LidiaDishnica-\LidiaDishnica_Project\LidiaDishnica\obj\Debug\LidiaDishnica.pdb
