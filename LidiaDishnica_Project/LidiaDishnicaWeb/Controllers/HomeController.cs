@@ -54,20 +54,7 @@ namespace LidiaDishnicaWeb.Controllers
             commodityRootsModel.Fill(com);
             com.Save();
          return   RedirectToAction("Index");
-            //CommodityChapters cch = new CommodityChapters();
-            //var parents = cch.Search();
-            //List<CommodityChapterModel> model = new List<CommodityChapterModel>();
-            //foreach (var item in parents)
-            //{
-            //    CommodityChapterModel cm = new CommodityChapterModel();
-            //    cm.Code = item.Code;
-            //    cm.Name = item.Name;
-            //    CommodityRoots commodityRoots = new CommodityRoots();
-            //    var elements = commodityRoots.GetByIdParent(item.Id);
-            //    cm.CommodityRootsItems = elements;
-            //    model.Add(cm);
-            //}
-            //return View("Index", model);
+         
 
         }
         public ActionResult About()
